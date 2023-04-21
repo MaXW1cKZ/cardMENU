@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="mod.css">
+</head>
+
+<body>
+
+    <header class="seach">
+        <div class="seach-container">
+            <h3 style="color: rgb(255, 255, 255)">Search</h3>
+            <input type="text" name="" id="serachbar" class="border-4 p-5 border-[#f59e0b]" onkeyup="search()">
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="all-mune">
+            <h2 class="nameMenu">Menu</h2>
+            <hr class="line"><br>
+            <div class="menu">
+                <figure>
+                    <img class="pic-menu"
+                        src="https://www.allrecipes.com/thmb/3cixVDmAtbb2hYxoFLVJ4VPQ7rA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/143809-best-steak-marinade-in-existence-ARMag-1x1-1-8105b6b8e5cb4931ba8061f0425243dd.jpg"
+                        alt="">
+                    <figcaption class="name" id="product" style="display: none;">STEAK</figcaption>
+                </figure>
+                <div class="price">150</div>
+                <button class="select">Select</button>
+            </div>
+            <div class="menu">
+                <figure>
+                    <img class="pic-menu"
+                        src="https://images.immediate.co.uk/production/volatile/sites/30/2020/12/Noodles-with-chilli-oil-eggs-6ec34e9.jpg?quality=90&resize=556,505"
+                        alt="">
+                    <figcaption class="name" id="product" style="display: none;">NOODLE</figcaption>
+                </figure>
+                <div class="price">60</div>
+                <button class="select">Select</button>
+            </div>
+            <div class="menu">
+                <figure>
+                    <img class="pic-menu"
+                        src="https://cw33.com/wp-content/uploads/sites/8/2022/02/pizza.jpg?w=2560&h=1440&crop=1"
+                        alt="">
+                    <figcaption class="name" id="product" style="display: none;">PIZZA</figcaption>
+                </figure>
+                <div class="price">100</div>
+                <button class="select">Select</button>
+            </div>
+            <div class="menu">
+                <figure>
+                    <img class="pic-menu"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/1200px-Phat_Thai_kung_Chang_Khien_street_stall.jpg"
+                        alt="">
+                    <figcaption class="name" id="product" style="display: none;">PADTHAI</figcaption>
+                </figure>
+                <div class="price">50</div>
+                <button class="select">Select</button>
+            </div>
+            <div class="menu">
+                <figure>
+                    <img class="pic-menu"
+                        src="https://hot-thai-kitchen.com/wp-content/uploads/2022/10/pad-gaprao-beef-sq-2.jpg" alt="">
+                    <figcaption class="name" id="product" style="display: none;">PADKRAPAO</figcaption>
+                </figure>
+                <div class="price">60</div>
+                <button class="select">Select</button>
+            </div>
+            <div class="menu">
+                <figure>
+                    <img class="pic-menu"
+                        src="https://www.foodnetwork.com/content/dam/images/food/fullset/2015/4/8/4/WU1004H_Chicken-Nuggets_s4x3.jpg"
+                        alt="">
+                    <figcaption class="name" id="product" style="display: none;">NUGGET</figcaption>
+                </figure>
+                <div class="price">60</div>
+                <button class="select">Select</button>
+            </div>
+        </div>
+
+        <div class="order">
+            <h2>Order</h2>
+            <div class="bar-order">
+                <a>menu</a>
+                <p>|</p>
+                <a>price</a>
+                <p>|</p>
+                <a>amount</a>
+            </div>
+
+            <div id="cartItem">
+
+            </div>
+            <div id="total">
+
+            </div>
+        </div>
+        <script src="login.js"></script>
+</body>
+
+</html>
